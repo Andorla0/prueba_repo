@@ -5,33 +5,23 @@ import {Navbar, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react
 
 export default function HomeNavbar() {
   return (
-    <div className="bg-blue-400">
+    <div className="bg-black">
       <Navbar shouldHideOnScroll className="flex flex-row  align-center justify-center my-7 ">
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link className="hover:bg-white" color="foreground" href="/skills">
+            <Link className="hover:bg-green-300 hover:text-black ease-out duration-500 p-6 rounded-full">
               Skills
             </Link>
           </NavbarItem>
           <NavbarItem isActive>
-            <Link href="projects" aria-current="page">
+            <Link className="hover:bg-green-300 hover:text-black ease-out duration-500 p-6 rounded-full">
               Projects
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/contact">
+            <Link className="hover:bg-green-300 hover:text-black ease-out duration-500 p-6 rounded-full" color="foreground" href="/contact">
               Contact
             </Link>
-          </NavbarItem>
-        </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
-            </Button>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
