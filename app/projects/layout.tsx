@@ -1,9 +1,12 @@
 
+
+import HomeNavbar from "@/components/navbar"
+
 export default function ProjectsLayout({children}: {children: React.ReactNode;})
 {
   return (
-    <div>
-      <h1>Hello Root Layout Contact</h1>
+    <div className="flex flex-col">
+      <HomeNavbar/>
       {children}
     </div>
   );
