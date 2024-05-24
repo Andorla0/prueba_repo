@@ -2,7 +2,7 @@
 
 import HomeNavbar from "@/components/navbar"
 
-export default function ProjectsLayout({children}: {children: React.ReactNode;})
+export default function MyMoviesLayout({children}: {children: React.ReactNode;})
 {
   return (
     <div className="flex flex-col">

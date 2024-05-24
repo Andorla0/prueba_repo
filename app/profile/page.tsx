@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Contactpage = () => {
+const ProFilePage = () => {
   return (
     <h1>Contactpage</h1>
   )
 }
 
-export default Contactpage
+export default ProFilePage
