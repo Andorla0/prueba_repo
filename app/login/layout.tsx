@@ -5,8 +5,7 @@ export default function LoginLayout({
  children: React.ReactNode;
 }) {
   return (
-    <div>
-      <h1>Hello Root Layout Login</h1>
+    <div className=" flex w-full h-[100vh] justify-center items-center">
       {children}
     </div>
   );
